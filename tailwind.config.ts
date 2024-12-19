@@ -1,18 +1,16 @@
-import type { Config } from "tailwindcss";
+const catppuccin = require('@catppuccin/daisyui');
 
-export default {
+module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/**/*.{js,ts,jsx,tsx}',
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    'index.html',
   ],
-  theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
+  plugins: [require('daisyui')],
+  daisyui: {
+    themes: [
+      catppuccin('mocha', { primary: 'mauve', secondary: 'rosewater', accent : 'lavender' }),
+    ],
   },
-  plugins: [],
-} satisfies Config;
+};
