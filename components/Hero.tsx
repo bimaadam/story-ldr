@@ -14,12 +14,12 @@ const Hero = () => {
       </p>
       <a href="#pertame">
 
-      <button className="btn btn-primary m-1 rounded-lg">Mulai</button>
+      <button className="btn btn-primary m-1 rounded-lg">Mulai</button></a>
       <a href="#testi">
       <button
       className="btn btn-primary m-1">Kirim Ucapan</button>
       </a>
-      </a>
+      
     </div>
   </div>
 </div>
