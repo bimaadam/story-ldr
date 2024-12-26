@@ -2,4 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.navbar {
+    position: fixed; /* Mengatur posisi navbar tetap */
+    top: 0; /* Menempatkan navbar di bagian atas */
+    width: 100%; /* Memastikan navbar mengambil lebar penuh */
+    z-index: 1000; /* Menjaga navbar di atas elemen lain */
+}
