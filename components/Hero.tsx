@@ -10,12 +10,15 @@ const Hero = () => {
     <div>
       <h1 className="text-5xl font-bold">Happy Anniversary 3 Years</h1>
       <p className="py-6">
-        Selamat Anniversarry yang ke-3 Tahun untuk Bima Adam & Ririn Setiawati pasangan LDR yang sangat mengagumkan
+      Selamat Anniversary ke-3 Tahun untuk Bima Adam & Ririn Setiawati! 🎉✨ Kalian berdua adalah bukti hidup bahwa cinta bisa menembus jarak, waktu, dan tantangan. Pasangan LDR paling solid yang selalu bikin iri karena chemistry-nya luar biasa! 💕 Semoga hubungan ini terus langgeng, penuh kebahagiaan, dan makin banyak momen indah yang kalian ciptakan bersama. Cheers untuk cinta sejati kalian! 🥂❤️
       </p>
       <a href="#pertame">
 
       <button className="btn btn-primary m-1 rounded-lg">Mulai</button>
-      {/* <button className="btn btn-primary m-1">Made with Love By Bima Adam Nugraha ❤️ Ririn Setiawati</button> */}
+      <a href="#testi">
+      <button
+      className="btn btn-primary m-1">Kirim Ucapan</button>
+      </a>
       </a>
     </div>
   </div>

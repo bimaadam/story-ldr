@@ -23,6 +23,28 @@ const Features = () => {
                                 <p>Komitmen untuk terus bersama, mendukung mimpi masing-masing, dan saling menjaga.</p>
                             </div>
                         </div>
+                        <div className="card bg-base-200 shadow-lg transition-transform transform hover:scale-105 hover:bg-accent hover:text-white hover:shadow-2xl hover:shadow-secondary">
+                <div className="card-body">
+                    <h3 className="text-xl font-bold">Jalan-jalan ke Pantai Alang-Alang 🌊</h3>
+                    <p>Kami menikmati momen indah di Pantai Alang-Alang, Senggigi. Pemandangan sunset yang memukau! ❤️</p>
+                </div>
+            </div>
+
+            {/* Makan Bareng di KFC */}
+            <div className="card bg-base-200 shadow-lg transition-transform transform hover:scale-105 hover:bg-accent hover:text-white hover:shadow-2xl hover:shadow-secondary">
+                <div className="card-body">
+                    <h3 className="text-xl font-bold">Makan Bareng di KFC 🍗</h3>
+                    <p>Kami sering menikmati waktu santai dengan makan bersama di KFC favorit. Saling berbagi cerita sambil menikmati nugget! 😋</p>
+                </div>
+            </div>
+
+            {/* Foto Bareng di Lombok Epicentrum Mall */}
+            <div className="card bg-base-200 shadow-lg transition-transform transform hover:scale-105 hover:bg-accent hover:text-white hover:shadow-2xl hover:shadow-secondary">
+                <div className="card-body">
+                    <h3 className="text-xl font-bold">Foto Bareng di Lombok Epicentrum Mall 📸</h3>
+                    <p>Momen seru saat kami berfoto bersama di Lombok Epicentrum Mall. Kenangan yang selalu kami hargai! 📷✨</p>
+                </div>
+                </div>
                     </div>
                 </div>
             </section>
@@ -48,8 +70,8 @@ const Features = () => {
                                 <p>Kami sering ngobrol sampai lupa waktu, dari cerita receh sampai rencana masa depan.</p>
                             </div>
                         </div>
+                        </div>
                     </div>
-                </div>
             </section>
         </>
     );
