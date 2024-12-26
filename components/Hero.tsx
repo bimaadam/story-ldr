@@ -14,8 +14,8 @@ const Hero = () => {
       </p>
       <a href="#pertame">
 
-      <button className="btn btn-primary m-1">Mulai</button>
-      <button className="btn btn-primary m-1">Made with Love By Bima Adam Nugraha ❤️ Ririn Setiawati</button>
+      <button className="btn btn-primary m-1 rounded-lg">Mulai</button>
+      {/* <button className="btn btn-primary m-1">Made with Love By Bima Adam Nugraha ❤️ Ririn Setiawati</button> */}
       </a>
     </div>
   </div>
